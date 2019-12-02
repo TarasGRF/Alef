@@ -1,0 +1,4 @@
+@font-face{font-family:"menu";font-style:normal;font-weight:500;src:local("menu") url(./assets/fonts/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30e6fwniDtzM.woff) format("woff")}.menu{height:100px;background-color:blanchedalmond;display:flex;position:sticky;top:0px;justify-content:space-around;flex-direction:row}.menu-logo{flex-grow:4}.menu-logo img{width:100px}.menu-item{display:flex;flex-grow:1;align-items:center;font-family:"menu"}
+
+
+/*# sourceMappingURL=main.css.map*/

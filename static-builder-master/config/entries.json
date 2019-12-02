@@ -1,5 +1,8 @@
 {
   "index": [
     "./src/index/index.js"
+  ],
+  "main": [
+    "./src/main/main.js"
   ]
 }
