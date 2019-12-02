@@ -1,10 +1,15 @@
 @font-face {
-  font-family: "menu";
+  font-family: menus;
   font-style: normal;
   font-weight: 500;
-  src: local("menu")
-    url(../../assets/fonts/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30e6fwniDtzM.woff)
+  src: url(../../assets/fonts/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30e6fwniDtzM.woff)
     format("woff");
+}
+
+@mixin font_menu($size) {
+  font-size: $size;
+  font-family: menus, Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
 }
 
 .menu {
@@ -26,6 +31,16 @@
     display: flex;
     flex-grow: 1;
     align-items: center;
-    font-family: "menu";
+    @include font_menu(14px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .menu {
+    height: 400px;
+    background-color: rgb(16, 128, 49);
+    flex-direction: column;
+    transition-duration: 2s;
+    transition-property: background-color;
   }
 }
