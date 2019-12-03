@@ -23,7 +23,7 @@
 
   &-logo {
     flex-grow: 4;
-    img {
+    svg {
       width: 100px;
     }
   }
@@ -42,5 +42,13 @@
     flex-direction: column;
     transition-duration: 2s;
     transition-property: background-color;
+  }
+}
+
+.part_one {
+  height: 300px;
+  background-color: cadetblue;
+  img {
+    width: 100px;
   }
 }
