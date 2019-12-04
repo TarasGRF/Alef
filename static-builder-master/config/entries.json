@@ -4,5 +4,8 @@
   ],
   "main": [
     "./src/main/main.js"
+  ],
+  "custom": [
+    "./src/custom/custom.js"
   ]
 }
